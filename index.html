@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Servicios Generales | Electricidad • Gasfitería • Pintura</title>
+  <style>
+    :root{
+      --bg:#0b1220; --card:#0f1a33; --border:rgba(255,255,255,.10);
+      --text:#e8eefc; --muted:#b9c3da; --accent:#22c55e; --blue:#3b82f6;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:linear-gradient(180deg,#050a15,#0b1220);color:var(--text)}
+    .wrap{max-width:980px;margin:0 auto;padding:28px 18px 60px}
+    .hero{border:1px solid var(--border);background:rgba(15,26,51,.72);border-radius:22px;padding:22px}
+    h1{margin:0 0 8px 0;font-size:34px}
+    .muted{color:var(--muted)}
+    .badges{margin:14px 0 10px;display:flex;gap:10px;flex-wrap:wrap}
+    .badge{border:1px solid var(--border);background:rgba(255,255,255,.04);padding:8px 12px;border-radius:999px;font-size:13px;color:var(--muted)}
+    .grid{display:grid;grid-template-columns:1.4fr .9fr;gap:14px;margin-top:14px}
+    .card{border:1px solid var(--border);background:rgba(15,26,51,.72);border-radius:18px;padding:18px}
+    .cta{display:block;text-align:center;text-decoration:none}
+    .btn{width:100%;padding:14px 16px;border-radius:14px;border:none;
+      background:linear-gradient(90deg,var(--blue),var(--accent));color:#06101f;font-weight:800;font-size:16px;cursor:pointer}
+    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}
+    .services .card h3{margin-top:0}
+    ul{margin:10px 0 0 18px;color:var(--muted)}
+    .footer{margin-top:18px;color:var(--muted);font-size:13px;text-align:center}
+    @media (max-width:860px){.grid{grid-template-columns:1fr}.services{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <h1>Servicios Generales</h1>
+      <div class="muted">Electricidad • Gasfitería • Pintura • Mantenimiento</div>
+
+      <div class="badges">
+        <div class="badge">📍 Lima Metropolitana</div>
+        <div class="badge">⏰ Lun–Dom 7:00 a.m. – 9:00 p.m.</div>
+        <div class="badge">✅ Garantía incluida</div>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <h2 style="margin:0 0 10px 0;">Atención rápida y trabajo bien hecho</h2>
+          <div class="muted">
+            Hogares, oficinas y negocios. Cotización clara, materiales de calidad y garantía.
+            Envíanos foto/video + distrito para responder más rápido.
+          </div>
+          <ul>
+            <li>Diagnóstico y cotización</li>
+            <li>Orden y seguridad</li>
+            <li>Entrega con garantía</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h2 style="margin:0 0 10px 0;">📲 Cotiza por WhatsApp</h2>
+          <div class="muted" style="margin-bottom:12px;">Escríbenos: distrito + servicio + foto/video.</div>
+          <a class="cta" href="https://wa.me/TU_NUMERO?text=Hola%20quiero%20una%20cotizaci%C3%B3n.%20Mi%20distrito%20es%3A%20____%20y%20el%20servicio%20es%3A%20____" target="_blank">
+            <button class="btn">WhatsApp</button>
+          </a>
+        </div>
+      </div>
+
+      <h2 style="margin:18px 0 8px 0;">Servicios</h2>
+      <div class="services">
+        <div class="card">
+          <h3>⚡ Electricidad</h3>
+          <ul>
+            <li>Instalaciones y reparaciones</li>
+            <li>Tableros, tomacorrientes, luminarias</li>
+            <li>Revisión de seguridad</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>🚰 Gasfitería</h3>
+          <ul>
+            <li>Fugas, griferías, sanitarios</li>
+            <li>Destapes y mantenimiento</li>
+            <li>Instalaciones</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>🎨 Pintura</h3>
+          <ul>
+            <li>Interior y exterior</li>
+            <li>Resanes y empaste</li>
+            <li>Acabado profesional</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer">© Servicios Generales — Cotizaciones por WhatsApp</div>
+    </div>
+  </div>
+</body>
+</html>
